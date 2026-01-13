@@ -7,8 +7,8 @@ https://toc.cryptobook.us/
 
 ## Lectures
 | Lecture | Topic(s) | Remarks |
-|---------|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| 1       | - History of cryptography <br> - Aim of modern cryptography <br> - Shannon Cipher and perfect security <br> - Computational ciphers and semantic security (informal) | - Boneh & Shoup 2.1     |
+|---------|----------|---------|
+| 1       | - Shannon Cipher and perfect security <br> - Semantic security | - Boneh & Shoup 2.1-2.2     |
 
 
 
