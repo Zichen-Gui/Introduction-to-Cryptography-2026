@@ -9,7 +9,8 @@ https://toc.cryptobook.us/
 | Lecture | Topic(s) | Remarks |
 |---------|----------|---------|
 | 1       | - Shannon Cipher and perfect security <br> - Semantic security | - Boneh & Shoup 2.1-2.2     |
-
+| 2       | - How to prove that a scheme is semantically secure <br> - How to attack an insecure cipher |  - Boneh & Shoup 3.1-3.2 <br> - Exercise 3.7    |
+| 3       | - Pseudorandom generators |      |
 
 
 
