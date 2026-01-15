@@ -8,7 +8,7 @@ https://toc.cryptobook.us/
 ## Lectures
 | Lecture | Topic(s) | Remarks |
 |---------|----------|---------|
-| 1       | - Shannon Cipher and perfect security <br> - Semantic security | - Boneh & Shoup 2.1-2.2     |
+| 1       | - Shannon cipher and perfect security <br> - Semantic security | - Boneh & Shoup 2.1-2.2     |
 | 2       | - How to prove that a scheme is semantically secure <br> - How to attack an insecure cipher |      |
 | 3       | - Pseudorandom generators | - Boneh & Shoup 3.1-3.2 <br> - Exercise 3.7 <br> - [Breaking Go Ethereum by exploiting the weak PRG in its implementation](https://www.usenix.org/conference/usenixsecurity23/presentation/taverna) |
 
