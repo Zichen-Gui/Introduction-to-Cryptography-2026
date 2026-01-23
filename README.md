@@ -11,6 +11,9 @@ https://toc.cryptobook.us/
 | 1       | - Shannon cipher and perfect security <br> - Semantic security | - Boneh & Shoup 2.1-2.2     |
 | 2       | - How to prove that a scheme is semantically secure <br> - How to attack an insecure cipher |      |
 | 3       | - Pseudorandom generators | - Boneh & Shoup 3.1-3.2 <br> - Exercise 3.7 <br> - [Breaking Go Ethereum by exploiting the weak PRG in its implementation](https://www.usenix.org/conference/usenixsecurity23/presentation/taverna) |
+| 4       | - Security of stream cipher <br> - Composing PRGs | - Boneh & Shoup 3.3, 3.4   |
+| 5       | - Linear conguential generator <br> - CSS stream cipher <br> - Commitment scheme from PRG | - Boneh & Shoup 3.7.1, 3.8, 3.12   |
+
 
 
 
@@ -23,3 +26,21 @@ https://toc.cryptobook.us/
 
 
 ## Examinable Material
+### 0. General Techniques
+- Prove that a simple scheme is secure with respect to a security notion.
+- If a scheme is not secure with respect to a security notion, show a concrete attack against the security notion
+- Given a scheme, analyze its efficiency. For example, the number of keys required for the scheme, number of PRF evaluations needed by the scheme, for an encryption scheme, if the encryption/decryption can be parallelized and so on. 
+
+
+
+### 1. Encryption
+- Definition of Shannon cipher.
+- Definition of perfect security.
+- One-time pad and its limitations.
+- Given that $\mathcal{E}$ is semantically secure, prove that $\mathcal{E}'$ (that is a simple variant of $\mathcal{E}$) is (or is not) semantically secure.
+
+
+### 2. Stream Ciphers
+- Definition of PRG and PRG security.
+- Given that $G$ is a secure PRG, prove (or disprove) that $G'$ (that is a simple variant of $G$) is a secure PRG.
+- Reproduce the parallel and sequential compositions of PRGs. Informally argue about their security.
