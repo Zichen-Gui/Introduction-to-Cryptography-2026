@@ -21,6 +21,7 @@ https://toc.cryptobook.us/
 | Lab | Topic(s)                                       | Remarks |
 |-----|------------------------------------------------|---------|
 | 1   | - Implement One-Time Pad <br> - Attack Two-Time Pad |         |
+| 2   | - Attack `Math.random()` in Java 8 <br> - Implement the Content Scrambling System (CSS). <br> - Attack CSS |         |
 
 
 
