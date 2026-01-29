@@ -13,6 +13,7 @@ https://toc.cryptobook.us/
 | 3       | - Pseudorandom generators | - Boneh & Shoup 3.1-3.2 <br> - Exercise 3.7 <br> - [Breaking Go Ethereum by exploiting the weak PRG in its implementation](https://www.usenix.org/conference/usenixsecurity23/presentation/taverna) |
 | 4       | - Security of stream cipher <br> - Composing PRGs | - Boneh & Shoup 3.3, 3.4   |
 | 5       | - Linear congruential generator <br> - CSS stream cipher <br> - Commitment scheme from PRG | - Boneh & Shoup 3.7.1, 3.8, 3.12 <br> - [An entertaining video on how to break Math.random()](https://www.youtube.com/watch?v=XDsYPXRCXAs)   |
+| 6,7     | - Pseudorandom functions (PRFs) | - Boneh & Shoup 4.4 <br> - Exercise 4.1  |
 
 
 
