@@ -54,5 +54,6 @@ https://toc.cryptobook.us/
 ### 3. Block Ciphers
 - Definition of block cipher and its security.
 - Definition of pseudo-random function (PRF) and its security.
+- Given that F is a secure PRF, prove (or disprove) that F' is a secure PRF.
 - PRF switching lemma.
 - Deterministic counter mode.
