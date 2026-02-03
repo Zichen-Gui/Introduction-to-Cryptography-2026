@@ -14,7 +14,7 @@ https://toc.cryptobook.us/
 | 4       | - Security of stream cipher <br> - Composing PRGs | - Boneh & Shoup 3.3, 3.4   |
 | 5       | - Linear congruential generator <br> - CSS stream cipher <br> - Commitment scheme from PRG | - Boneh & Shoup 3.7.1, 3.8, 3.12 <br> - [An entertaining video on how to break Math.random()](https://www.youtube.com/watch?v=XDsYPXRCXAs)   |
 | 6,7     | - Pseudorandom functions (PRFs) | - Boneh & Shoup 4.4 <br> - Exercise 4.1  |
-| 8       | - From PRGs to PRFs <br> - Constrained PRFs <br> - An application of PRFs: searchable symmetric encryption (SSE) | - Boneh & Shoup 4.6 <br> - [Constrained Pseudorandom Functions and Their Applications](https://eprint.iacr.org/2013/352) <br> -[Adaptive Security for Constrained PRFs](https://eprint.iacr.org/2025/2122) (with applications in SSE) |
+| 8       | - From PRGs to PRFs <br> - Constrained PRFs <br> - An application of PRFs: searchable symmetric encryption (SSE) | - Boneh & Shoup 4.6 <br> - [Constrained Pseudorandom Functions and Their Applications](https://eprint.iacr.org/2013/352) <br> - [Adaptive Security for Constrained PRFs](https://eprint.iacr.org/2025/2122) (with applications in SSE) |
 | 9       | - Block ciphers (a.k.a. pseudorandom permutations) <br> - PRF switching lemma <br> - DES and its variants | - Boneh & Shoup 4.1, 4.2, 4.4.3   |
 
 
