@@ -16,6 +16,7 @@ https://toc.cryptobook.us/
 | 6,7     | - Pseudorandom functions (PRFs) | - Boneh & Shoup 4.4 <br> - Exercise 4.1  |
 | 8       | - From PRGs to PRFs <br> - Constrained PRFs <br> - An application of PRFs: searchable symmetric encryption (SSE) | - Boneh & Shoup 4.6 <br> - [Constrained Pseudorandom Functions and Their Applications](https://eprint.iacr.org/2013/352) <br> - [Adaptive Security for Constrained PRFs](https://eprint.iacr.org/2025/2122) (with applications in SSE) |
 | 9       | - Block ciphers (a.k.a. pseudorandom permutations) <br> - PRF switching lemma <br> - DES and its variants | - Boneh & Shoup 4.1, 4.2, 4.4.3   |
+| 10       | - Chosen plaintext attack (CPA) <br> - Generic hybrid construction <br> - Randomized counter mode <br> - Randomized CBC mode | - Boneh & Shoup 5.1-5.5   |
 
 
 
@@ -26,6 +27,8 @@ https://toc.cryptobook.us/
 | 1   | - Implement One-Time Pad <br> - Attack Two-Time Pad |         |
 | 2   | - Attack `Math.random()` in Java 8 <br> - Implement the Content Scrambling System (CSS). <br> - Attack CSS |         |
 | 3   | - Implement FEAL <br> - Attack FEAL | -  [Akihiro Shimizu, Shoji Miyaguchi. Fast Data Encipherment Algorithm FEAL.](https://link.springer.com/chapter/10.1007/3-540-39118-5_24) <br> - [Mitsuru Matsui, Atsuhiro Yamagishi. A New Method for Known Plaintext Attack of FEAL Cipher](https://link.springer.com/chapter/10.1007/3-540-47555-9_7) |
+| 4   | - Differential fault analysis of AES | - [Michael Tunstall, Debdeep Mukhopadhyay, Subidh Ali. Differential Fault Analysis of the Advanced Encryption Standard using a Single Fault](https://eprint.iacr.org/2009/575) |
+| 5   | - Implement a padding oracle attack on AES-CBC (GRADED) |         |
 
 
 
@@ -57,3 +60,9 @@ https://toc.cryptobook.us/
 - Given that F is a secure PRF, prove (or disprove) that F' is a secure PRF.
 - PRF switching lemma.
 - Deterministic counter mode.
+
+
+### 4. Chosen Plaintext Attack
+- Definition of CPA security.
+- Generic hybrid construction.
+- Randomized counter mode and randomized CBC mode.
