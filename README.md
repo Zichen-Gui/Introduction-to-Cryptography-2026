@@ -17,6 +17,8 @@ https://toc.cryptobook.us/
 | 8       | - From PRGs to PRFs <br> - Constrained PRFs <br> - An application of PRFs: searchable symmetric encryption (SSE) | - Boneh & Shoup 4.6 <br> - [Constrained Pseudorandom Functions and Their Applications](https://eprint.iacr.org/2013/352) <br> - [Adaptive Security for Constrained PRFs](https://eprint.iacr.org/2025/2122) (with applications in SSE) |
 | 9       | - Block ciphers (a.k.a. pseudorandom permutations) <br> - PRF switching lemma <br> - DES and its variants | - Boneh & Shoup 4.1, 4.2, 4.4.3   |
 | 10       | - Chosen plaintext attack (CPA) <br> - Generic hybrid construction <br> - Randomized counter mode <br> - Randomized CBC mode | - Boneh & Shoup 5.1-5.5   |
+| 11      | - Message authentication codes (MACs) <br> - MAC from PRF | - Boneh&Shoup 6.1-6.3  |
+| 12      | - CBC prefix-free PRF and cascade prefix-free PRF <br> - Encrypted CBC/cascade MACs <br> - Prefix-free encoding <br> - Randonmized prefix-free encoding | - Boneh&Shoup 6.4-6.7 |
 
 
 
