@@ -19,6 +19,10 @@ https://toc.cryptobook.us/
 | 10       | - Chosen plaintext attack (CPA) <br> - Generic hybrid construction <br> - Randomized counter mode <br> - Randomized CBC mode | - Boneh & Shoup 5.1-5.5   |
 | 11      | - Message authentication codes (MACs) <br> - MAC from PRF | - Boneh&Shoup 6.1-6.3  |
 | 12      | - CBC prefix-free PRF and cascade prefix-free PRF <br> - Encrypted CBC/cascade MACs <br> - Prefix-free encoding <br> - Randonmized prefix-free encoding | - Boneh&Shoup 6.4-6.7 |
+| 13      | - Insecure variants of CBC MAC <br> Bit-wide PRF <br> - CMAC <br> - PMAC | - Boneh&Shoup 6.4, 6.10-6.11 <br> - Exercise 6.8, 6.9  |
+| 14      | - Universal hashing <br> - PRF(UHF) composition <br> - Polynomial hash | - Boneh&Shoup 7.1-7.3  |
+| 15      | - Polynomial hash <br> - Carter-Wegman MAC | - Boneh&Shoup 7.2, 7.4  |
+
 
 
 
@@ -68,3 +72,9 @@ https://toc.cryptobook.us/
 - Definition of CPA security.
 - Generic hybrid construction.
 - Randomized counter mode and randomized CBC mode.
+
+### 5. Message Integrity
+- Definition of MAC security.
+- MAC from PRF.
+- Prefix-free PRFs: the CBC construction and the nested construction.
+- Insecure variants of the CBC construction and the nested construction.
