@@ -22,6 +22,10 @@ https://toc.cryptobook.us/
 | 13      | - Insecure variants of CBC MAC <br> Bit-wide PRF <br> - CMAC <br> - PMAC | - Boneh&Shoup 6.4, 6.10-6.11 <br> - Exercise 6.8, 6.9  |
 | 14      | - Universal hashing <br> - PRF(UHF) composition <br> - Polynomial hash | - Boneh&Shoup 7.1-7.3  |
 | 15      | - Polynomial hash <br> - Carter-Wegman MAC | - Boneh&Shoup 7.2, 7.4  |
+| 16      | - Carter-Wegman MAC (continued) | - Boneh&Shoup 7.4  |
+| 17      | - Nonce-based MACs <br> - Unconditionally secure one-time MACs | - Boneh&Shoup 7.5, 7.6 |
+| 18      | - Collision resistant hash <br> - Other applications of CR hash <br> - Birthday attacks <br> The Merkle-Damgard paradigm | - Boneh&Shoup 8.1-8.4, 8.9 |
+
 
 
 
@@ -35,6 +39,7 @@ https://toc.cryptobook.us/
 | 3   | - Implement FEAL <br> - Attack FEAL | -  [Akihiro Shimizu, Shoji Miyaguchi. Fast Data Encipherment Algorithm FEAL.](https://link.springer.com/chapter/10.1007/3-540-39118-5_24) <br> - [Mitsuru Matsui, Atsuhiro Yamagishi. A New Method for Known Plaintext Attack of FEAL Cipher](https://link.springer.com/chapter/10.1007/3-540-47555-9_7) |
 | 4   | - Differential fault analysis of AES | - [Michael Tunstall, Debdeep Mukhopadhyay, Subidh Ali. Differential Fault Analysis of the Advanced Encryption Standard using a Single Fault](https://eprint.iacr.org/2009/575) |
 | 5   | - Implement a padding oracle attack on AES-CBC (GRADED) |         |
+| 6   | - Collision attacks against MD4 and MD5 | - [X. Wang, X. Lai, D. Feng, H. Chen and X. Yu. Cryptanalysis of the Hash Functions MD4 and RIPEMD. Eurocrypt 2005.](https://www.iacr.org/archive/fse2007/45930331/45930331.pdf) <br> - [M. Schl¨affer and E. Oswald. Searching for Differential Paths in MD4. Fast Software Encryption (FSE) 2006.](https://www.iacr.org/archive/fse2006/40470245/40470245.pdf) <br> - [Y. Sasaki, L. Wang, K. Ohta and N. Kunihiro. New Message Difference for MD4. Fast Software Encryption (FSE) 2007.](https://iacr.org/archive/fse2007/45930331/45930331.pdf)        |
 
 
 
@@ -73,8 +78,15 @@ https://toc.cryptobook.us/
 - Generic hybrid construction.
 - Randomized counter mode and randomized CBC mode.
 
+
 ### 5. Message Integrity
 - Definition of MAC security.
 - MAC from PRF.
 - Prefix-free PRFs: the CBC construction and the nested construction.
 - Insecure variants of the CBC construction and the nested construction.
+
+
+### 6. Message Integrity from Universal Hashing
+- UHF and PRF(UHF) compositon
+- DUF and the Carter-Wegman MAC
+- PUF and unconditionally secure one-time MACs
