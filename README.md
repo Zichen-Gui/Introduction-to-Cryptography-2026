@@ -24,7 +24,10 @@ https://toc.cryptobook.us/
 | 15      | - Polynomial hash <br> - Carter-Wegman MAC | - Boneh&Shoup 7.2, 7.4  |
 | 16      | - Carter-Wegman MAC (continued) | - Boneh&Shoup 7.4  |
 | 17      | - Nonce-based MACs <br> - Unconditionally secure one-time MACs | - Boneh&Shoup 7.5, 7.6 |
-| 18      | - Collision resistant hash <br> - Other applications of CR hash <br> - Birthday attacks <br> The Merkle-Damgard paradigm | - Boneh&Shoup 8.1-8.4, 8.9 |
+| 18      | - Collision resistant hash <br> - Other applications of CR hash <br> - Birthday attacks <br> - The Merkle-Damgard paradigm | - Boneh&Shoup 8.1-8.4, 8.9 |
+| 19      | - Building compression functions <br>  - HMAC <br> - The sponge construction<br> Password hashing | - Boneh&Shoup 8.5, 8.7, 8.8, 18.3, 18.4 |
+| 20      | - Authenticated encryption | - Boneh&Shoup 9.1-9.4 |
+
 
 
 
