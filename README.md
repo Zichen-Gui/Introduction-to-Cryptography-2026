@@ -27,6 +27,9 @@ https://toc.cryptobook.us/
 | 18      | - Collision resistant hash <br> - Other applications of CR hash <br> - Birthday attacks <br> - The Merkle-Damgard paradigm | - Boneh&Shoup 8.1-8.4, 8.9 |
 | 19      | - Building compression functions <br>  - HMAC <br> - The sponge construction<br> - Password hashing | - Boneh&Shoup 8.5, 8.7, 8.8, 18.3, 18.4 |
 | 20      | - Authenticated encryption | - Boneh&Shoup 9.1-9.4 |
+| 21      | - Authenticated encryption (continued) | - Boneh&Shoup 9.5, 9.7, 9.10 |
+| 22      | - Overview of public key cryptography | |
+| 23      | - Introduction to groups | - [Group on Wikipedia](https://en.wikipedia.org/wiki/Group_(mathematics)) |
 
 
 
@@ -43,6 +46,7 @@ https://toc.cryptobook.us/
 | 4   | - Differential fault analysis of AES | - [Michael Tunstall, Debdeep Mukhopadhyay, Subidh Ali. Differential Fault Analysis of the Advanced Encryption Standard using a Single Fault](https://eprint.iacr.org/2009/575) |
 | 5   | - Implement a padding oracle attack on AES-CBC (GRADED) |         |
 | 6   | - Collision attacks against MD4 and MD5 | - [X. Wang, X. Lai, D. Feng, H. Chen and X. Yu. Cryptanalysis of the Hash Functions MD4 and RIPEMD. Eurocrypt 2005.](https://www.iacr.org/archive/fse2007/45930331/45930331.pdf) <br> - [M. Schl¨affer and E. Oswald. Searching for Differential Paths in MD4. Fast Software Encryption (FSE) 2006.](https://www.iacr.org/archive/fse2006/40470245/40470245.pdf) <br> - [Y. Sasaki, L. Wang, K. Ohta and N. Kunihiro. New Message Difference for MD4. Fast Software Encryption (FSE) 2007.](https://iacr.org/archive/fse2007/45930331/45930331.pdf)        |
+| 7   | - Chopchop attack against 802.11b WEP | - [M. Guennoun, A. Lbekkouri, A. Benamrane, M. Ben-Tahir and K. El-Khatib, "Wireless networks security: Proof of chopchop attack," 2008 International Symposium on a World of Wireless, Mobile and Multimedia Networks.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4594924)  |
 
 
 
