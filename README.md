@@ -30,6 +30,8 @@ https://toc.cryptobook.us/
 | 21      | - Authenticated encryption (continued) | - Boneh&Shoup 9.5, 9.7, 9.10 |
 | 22      | - Overview of public key cryptography | |
 | 23      | - Introduction to groups | - [Group on Wikipedia](https://en.wikipedia.org/wiki/Group_(mathematics)) |
+| 24      | - Introduction to groups (continued) <br> - Exponentiation by squaring <br> - Diffie-Hellman key exchange <br> - Man-in-the-Middle attack against DHKE| - [Group on Wikipedia](https://en.wikipedia.org/wiki/Group_(mathematics)) <br> - [Exponentiation by squaring](https://en.wikipedia.org/wiki/Exponentiation_by_squaring) <br> - Boneh & Shoup 10.4, 10.7 |
+| 25      | - Diffie-Hellman key exchange, concretely ([RFC 2631](https://datatracker.ietf.org/doc/html/rfc2631)) <br> - Miller–Rabin primality test <br> - Baby-step giant-step | - [Why 2048-bit prime p?](https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf) <br> - [Why (at least) 256-bit prime q?](https://en.wikipedia.org/wiki/Baby-step_giant-step) <br> - [Miller–Rabin primality test](https://en.wikipedia.org/wiki/Miller–Rabin_primality_test) <br> - Boneh & Shoup 16.1 |
 
 
 
@@ -47,6 +49,9 @@ https://toc.cryptobook.us/
 | 5   | - Implement a padding oracle attack on AES-CBC (GRADED) |         |
 | 6   | - Collision attacks against MD4 and MD5 | - [X. Wang, X. Lai, D. Feng, H. Chen and X. Yu. Cryptanalysis of the Hash Functions MD4 and RIPEMD. Eurocrypt 2005.](https://www.iacr.org/archive/fse2007/45930331/45930331.pdf) <br> - [M. Schl¨affer and E. Oswald. Searching for Differential Paths in MD4. Fast Software Encryption (FSE) 2006.](https://www.iacr.org/archive/fse2006/40470245/40470245.pdf) <br> - [Y. Sasaki, L. Wang, K. Ohta and N. Kunihiro. New Message Difference for MD4. Fast Software Encryption (FSE) 2007.](https://iacr.org/archive/fse2007/45930331/45930331.pdf)        |
 | 7   | - Chopchop attack against 802.11b WEP | - [M. Guennoun, A. Lbekkouri, A. Benamrane, M. Ben-Tahir and K. El-Khatib, "Wireless networks security: Proof of chopchop attack," 2008 International Symposium on a World of Wireless, Mobile and Multimedia Networks.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4594924)  |
+| 8   | - Implement Diffie-Hellman Key Exchange | - [RFC 2631](https://datatracker.ietf.org/doc/html/rfc2631) |
+| 9   | - Implement RSA cryptosystem |         |
+| 10  | - Implement the Pohlig-Hellman Algorithm (GRADED) |         |
 
 
 
@@ -97,3 +102,18 @@ https://toc.cryptobook.us/
 - UHF and PRF(UHF) compositon
 - DUF and the Carter-Wegman MAC
 - PUF and unconditionally secure one-time MACs
+
+
+### 7. Message Integrity from Collision Resistant Hashing
+- Definition of collision resistant hashing
+- Hash-then-MAC paradigm
+- Birthday attack on collision resistant hash functions
+- The Merkle-Damgard paradigm
+- Davies-Meyer compression functions
+
+
+### 8. Authenticated Encryption
+- Definition of ciphertext integrity
+- Definition of authenticated encryption
+- Nonce-based authenticated encryption with associated data
+- Generic compositions: MAC-then-encrypt and encrypt-then-MAC
