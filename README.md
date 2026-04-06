@@ -32,7 +32,9 @@ https://toc.cryptobook.us/
 | 23      | - Introduction to groups | - [Group on Wikipedia](https://en.wikipedia.org/wiki/Group_(mathematics)) |
 | 24      | - Introduction to groups (continued) <br> - Exponentiation by squaring <br> - Diffie-Hellman key exchange <br> - Man-in-the-Middle attack against DHKE| - [Group on Wikipedia](https://en.wikipedia.org/wiki/Group_(mathematics)) <br> - [Exponentiation by squaring](https://en.wikipedia.org/wiki/Exponentiation_by_squaring) <br> - Boneh & Shoup 10.4, 10.7 |
 | 25      | - Diffie-Hellman key exchange, concretely ([RFC 2631](https://datatracker.ietf.org/doc/html/rfc2631)) <br> - Miller–Rabin primality test <br> - Baby-step giant-step | - [Why 2048-bit prime p?](https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf) <br> - [Why (at least) 256-bit prime q?](https://en.wikipedia.org/wiki/Baby-step_giant-step) <br> - [Miller–Rabin primality test](https://en.wikipedia.org/wiki/Miller–Rabin_primality_test) <br> - Boneh & Shoup 16.1 |
-
+| 26      | - RSA <br> - RSA accumulator | - Boneh & Shoup 10.3, 10.9 |
+| 27      | - Semantic security and CPA <br> - Encryption based on a trapdoor function scheme <br> - ElGamal encryption <br> - Oblivious transfer based on Diffie-Hellman | - Boneh&Shoup 11.2-11.6 |
+| 28      | - CCA <br> - PKCS1 <br> - OAEP <br> - Oblivious PRFs | - Boneh&Shoup 12.1-12.4, 12.8 <br> - [OPRF](https://eprint.iacr.org/2014/650) |
 
 
 
