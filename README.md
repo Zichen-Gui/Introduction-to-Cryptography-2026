@@ -35,6 +35,8 @@ https://toc.cryptobook.us/
 | 26      | - RSA <br> - RSA accumulator | - Boneh & Shoup 10.3, 10.9 |
 | 27      | - Semantic security and CPA <br> - Encryption based on a trapdoor function scheme <br> - ElGamal encryption <br> - Oblivious transfer based on Diffie-Hellman | - Boneh&Shoup 11.2-11.6 |
 | 28      | - CCA <br> - PKCS1 <br> - OAEP <br> - Oblivious PRFs | - Boneh&Shoup 12.1-12.4, 12.8 <br> - [OPRF](https://eprint.iacr.org/2014/650) |
+| 29      | - Digital signatures <br> - TLS session setup  | - Boneh&Shoup 13.1-13.3, 13.6, 13.8, 21.10 |
+| 30      | - Elliptic curves <br> - ECDSA | - Boneh&Shoup 15.1-15.3, 19.3 <br> - [Decoding the PlayStation 3 Hack: Unraveling the ECDSA Random Generator Flaw](https://deeprnd.medium.com/decoding-the-playstation-3-hack-unraveling-the-ecdsa-random-generator-flaw-e9074a51b831) |
 
 
 
@@ -54,6 +56,7 @@ https://toc.cryptobook.us/
 | 8   | - Implement Diffie-Hellman Key Exchange | - [RFC 2631](https://datatracker.ietf.org/doc/html/rfc2631) |
 | 9   | - Implement RSA cryptosystem |         |
 | 10  | - Implement the Pohlig-Hellman Algorithm (GRADED) |         |
+| 11  | - Implement ECDSA | - https://datatracker.ietf.org/doc/html/rfc6605 |
 
 
 
@@ -119,3 +122,32 @@ https://toc.cryptobook.us/
 - Definition of authenticated encryption
 - Nonce-based authenticated encryption with associated data
 - Generic compositions: MAC-then-encrypt and encrypt-then-MAC
+
+
+### 9. Public key tools
+- Definition of key exchange
+- One-way trapdoor functions/permutations
+- Key exchange using a one-way trapdoor function
+- RSA cryptosystem
+- Diffie-Hellman key exchange
+- Man-in-the-Middle attack
+- Definition of discrete logarithm and related assumptions
+
+
+### 10. Public key encryption
+- Definition of semantic security
+- Definition of semantic security against chosen plaintext attack
+- Public key encryption based on RSA
+- ElGamal encryption
+
+
+### 11. Chosen ciphertext secure public key encryption
+- Definition of semantic security against chosen ciphertext attack
+- Understand examples of public key encryption schemes such as PKCS#1 (insecure) and OAEP (secure)
+- Given a scheme (which can be for functionalities other than encryption) based on RSA or discrete logarithm, argue informally about its security, or come up with a concrete attack
+
+
+### 12. Digital signatures
+- Definition of secure signatures (EUF-CMA)
+- Signatures based on the RSA trapdoor permutation
+- Digital certificates
