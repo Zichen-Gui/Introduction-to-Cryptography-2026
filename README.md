@@ -37,6 +37,9 @@ https://toc.cryptobook.us/
 | 28      | - CCA <br> - PKCS1 <br> - OAEP <br> - Oblivious PRFs | - Boneh&Shoup 12.1-12.4, 12.8 <br> - [OPRF](https://eprint.iacr.org/2014/650) |
 | 29      | - Digital signatures <br> - TLS session setup  | - Boneh&Shoup 13.1-13.3, 13.6, 13.8, 21.10 |
 | 30      | - Elliptic curves <br> - ECDSA | - Boneh&Shoup 15.1-15.3, 19.3 <br> - [Decoding the PlayStation 3 Hack: Unraveling the ECDSA Random Generator Flaw](https://deeprnd.medium.com/decoding-the-playstation-3-hack-unraveling-the-ecdsa-random-generator-flaw-e9074a51b831) |
+| 31      | - Cache side-channel attacks | - [Randomized Last-Level Caches Are Still Vulnerable to Cache Side-Channel Attacks! But We Can Fix It](https://ieeexplore.ieee.org/document/9519409) |
+| 32      | - Cache side-channel attacks (continued) <br> - Grover's algorithm  | - 3Blue1Brown's videos on Grover's algorithm: [[1](https://www.youtube.com/watch?v=RQWpF2Gb-gU)], [[2](https://www.youtube.com/watch?v=Dlsa9EBKDGI)] <br> - 3Blue1Brown's video on Fourier transformation (the classic version of Shor's algorithm; Shor's algorithm provides an exponential speed-up for factorization and discrete logarithm): [[1](https://www.youtube.com/watch?v=spUNpyF58BY)] |
+
 
 
 
